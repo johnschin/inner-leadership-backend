@@ -23,9 +23,8 @@ app.post('/chat', async (req, res) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-      'x-api-key': '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',
-      },
-      body: JSON.stringify({
+     'x-api-key': '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',
+        body: JSON.stringify({
         model: 'claude-sonnet-4-20250514',
         max_tokens: 1000,
         system: req.body.system,
