@@ -1,0 +1,5 @@
+{
+  "name": "guide-to-self-backend",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "*", "cors": "*" }
+}
