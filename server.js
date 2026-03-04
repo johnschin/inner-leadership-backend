@@ -23,7 +23,7 @@ app.post('/chat', async (req, res) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-     'x-api-key': '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',
+    'x-api-key': process.env.ANTHROPIC_API_KEY,
         body: JSON.stringify({
         model: 'claude-sonnet-4-20250514',
         max_tokens: 1000,
