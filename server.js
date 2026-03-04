@@ -23,7 +23,7 @@ app.post('/chat', async (req, res) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': process.env.ANTHROPIC_API_KEY,
+        'x-api-key': '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',
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
